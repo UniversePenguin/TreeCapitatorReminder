@@ -1,0 +1,34 @@
+{
+  "name": "treecapitatorreminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager \"C:\\Users\\Ethan Drake\\Documents\\Coding Projects\\Javascript\\TreeCapitatorReminder\" CapitatorCircle --platform=win32 --arch=x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.0",
+    "gkm": "^0.2.0",
+    "node-abi": "^2.19.1"
+  },
+  "iohook": {
+    "targets": [
+      "node-72",
+      "electron-80"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
+  "devDependencies": {
+    "electron-packager": "^15.1.0"
+  }
+}
